@@ -1,18 +1,19 @@
 import { Component } from "react";
-import { Audio } from "react-loader-spinner";
+import { MagnifyingGlass } from "react-loader-spinner";
 
 export default class Loader extends Component {
   render() {
     return (
       <div className="loader-container">
-        <Audio
+        <MagnifyingGlass
+          visible={true}
           height="80"
           width="80"
-          radius="9"
-          color="green"
-          ariaLabel="three-dots-loading"
-          wrapperStyle
-          wrapperClass
+          ariaLabel="magnifying-glass-loading"
+          wrapperStyle={{}}
+          wrapperClass="magnifying-glass-wrapper"
+          glassColor="#c0efff"
+          color="#e15b64"
         />
       </div>
     );

@@ -9,7 +9,7 @@ export default class Button extends Component {
         type="button"
         className={styles.button}
         onClick={onClick}
-        disabled={disabled}></button>
+        disabled={disabled}>Load more...</button>
     );
   }
 }

@@ -7,6 +7,7 @@ import Button from "./Button";
 import Modal from "./Modal";
 import Loader from "./Loader";
 import styles from "./Aplication.module.scss";
+import "../index.module.scss"
 
 const API_KEY = "3738917-e2fd90131b33d81f7486a9a18";
 
